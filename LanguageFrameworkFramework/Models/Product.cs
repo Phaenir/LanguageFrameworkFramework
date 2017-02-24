@@ -10,7 +10,7 @@ namespace LanguageFrameworkFramework.Models
         public int ProductID { get; set; }
         private string name;
         public string Name { get {
-                return ProductID + name;
+                return name;
             } set
             {
                 name = value;
